@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Drawable_color"
+    tools:context=".CommonFiles.LoginSignup.VerificationCode">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:transitionName="signup_screen">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:onClick="back_btn"
+                android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Verification Stage"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="#D8D4C9"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_gravity="center">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/email"
+                    app:lottie_speed="0.7"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/phoneVerify"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textAlignment="center"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/WhiteSmoke"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <com.chaos.view.PinView
+                android:id="@+id/pin"
+                style="@style/PinWidget.PinView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:cursorVisible="true"
+                android:inputType="number"
+                android:itemBackground="@android:color/transparent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                app:cursorColor="@color/white"
+                android:textColor="@color/white"
+                app:hideLineWhenFilled="true"
+                app:itemCount="6"
+                app:itemHeight="50dp"
+                app:itemRadius="25dp"
+                app:itemWidth="50dp"
+                app:lineColor="#B1A78D" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/next_btn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_back_state"
+                android:text="Verify Code"
+                android:layout_gravity="center"
+                android:textColor="@color/WhiteSmoke"
+                android:textSize="22sp"
+                android:onClick="verify"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

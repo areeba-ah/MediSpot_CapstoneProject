@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.chaosleung",
+    "module": "pinview",
+    "version": "1.4.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "2renl4lobfdx3jnfx4vbucipcm"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "pinview-1.4.4.aar",
+          "url": "pinview-1.4.4.aar",
+          "size": 29369,
+          "sha512": "ae8a2b061638468b594e3ea8d3746043eae48110818d16d50bf0f3c0b98b754b5d8a481ec2098bd47091a97b50e8855a299ca3f5203531e156ce7fd190117ff2",
+          "sha256": "036cd95d771210aae47974d17a4a61feec6a9466cd00491db038d0858357b6fd",
+          "sha1": "969a4dcf426706d883bf622b09d5af0b355eb948",
+          "md5": "02124d3debb7ca6ed384082132c84967"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pinview-1.4.4.aar",
+          "url": "pinview-1.4.4.aar",
+          "size": 29369,
+          "sha512": "ae8a2b061638468b594e3ea8d3746043eae48110818d16d50bf0f3c0b98b754b5d8a481ec2098bd47091a97b50e8855a299ca3f5203531e156ce7fd190117ff2",
+          "sha256": "036cd95d771210aae47974d17a4a61feec6a9466cd00491db038d0858357b6fd",
+          "sha1": "969a4dcf426706d883bf622b09d5af0b355eb948",
+          "md5": "02124d3debb7ca6ed384082132c84967"
+        }
+      ]
+    }
+  ]
+}

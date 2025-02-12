@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">MediSpot</string>
+    <string name="app_slogan">A go to guide and a reliable source of information for your medications !!</string>
+
+    <!-- Buttons-->
+    <string name="next_btn">Next</string>
+    <string name="skip_btn">Skip</string>
+    <string name="let_get_started">LET\'S GET STARTED</string>
+
+    <string name="reminder">There are no reminders set, you can add reminders by clicking on the add icon below!!"</string>
+
+    <string name="aboutMediSpot">
+        MediSpot is a mobile application with the sole purpose to help users identify
+        the purpose of their abundant medications with missing Patient Information leaflets (PILs)
+        and to provide the users with reliable and authentic sources of information about the medicines
+        available in the United Arab Emirates. The application provides its users with efficient
+        and widely spread search technologies that require least manual efforts and save the user’s
+        time from typing the medication name and other related information. The application uses
+        technologies such as Image and Text recognition, QR-code and Barcode scanners and an advanced
+        search engine to fetch necessary information about the medicines.
+    </string>
+
+    <string-array name="med_types">
+        <item>Capsules</item>
+        <item>Cream</item>
+        <item>Drops</item>
+        <item>Gel</item>
+        <item>Injection</item>
+        <item>Lotion</item>
+        <item>Ointment</item>
+        <item>Powder</item>
+        <item>Spray</item>
+        <item>Syrup</item>
+        <item>Tablet</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="med_instructions">
+        <item>Empty stomach</item>
+        <item>Before meal</item>
+        <item>After meal</item>
+        <item>No Instructions</item>
+    </string-array>
+
+
+    <string-array name="med_schedule">
+        <item>Once</item>
+        <item>Everyday</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="save_drug">Save Drug</string>
+    <string name="history">History</string>
+<string name="about_medispot">About MediSpot ~ </string>
+    <string name="type_your_concern_here">Type your concern here,</string>
+    <string name="search_by_image">Search by Image</string>
+    <string name="seacrh_by_qrcode">Seacrh by QRcode</string>
+    <string name="search_by_text">Search by Text</string>
+    <string name="search_by_barcode">Search by Barcode</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="eligible_age_to_register_is_16yrs">Eligible age to register is 16yrs</string>
+    <string name="select_your_age">Select your Age</string>
+    <string name="search_history">Search History</string>
+    <string name="empty_search_history">Empty search History!!</string>
+    <string name="saved_drugs">Saved Drugs</string>
+    <string name="search">Search</string>
+    <string name="back_button">back button</string>
+</resources>

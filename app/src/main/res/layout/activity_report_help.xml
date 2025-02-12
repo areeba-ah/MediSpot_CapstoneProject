@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WhiteSmoke"
+    tools:context=".User.ReportHelp">
+
+  <View
+      android:id="@+id/blurView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@android:color/white"
+      android:alpha="0"
+      android:visibility="gone"/>
+
+  <com.google.android.material.navigation.NavigationView
+      android:id="@+id/nav_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_gravity="start"
+      app:headerLayout="@layout/drawable_layout"
+      app:menu="@menu/menu_resource"
+      android:theme="@style/nav_theme"/>
+
+  <LinearLayout
+      android:id="@+id/layout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:transitionName="signup_screen">
+
+    <RelativeLayout
+        android:id="@+id/menulayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:background="@color/Primary_color">
+
+      <ImageView
+          android:id="@+id/menu"
+          android:layout_width="45dp"
+          android:layout_height="40dp"
+          app:srcCompat="@drawable/ic_baseline_menu_24" />
+
+      <TextView
+          android:layout_width="146dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_toEndOf="@+id/menu"
+          android:text="MediSpot"
+          android:textColor="@color/white"
+          android:textSize="28dp"
+          android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:transitionName="signup_screen"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menulayout">
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:padding="30dp">
+
+        <ImageButton
+            android:id="@+id/Back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_button"
+            android:onClick="cancel"
+            android:textSize="20sp"
+            android:background="#00FFFFFF"
+            app:tint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+          <com.airbnb.lottie.LottieAnimationView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              app:lottie_autoPlay="true"
+              app:lottie_loop="false"
+              app:lottie_rawRes="@raw/helpline"
+              app:lottie_speed="0.7" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="Please, feel free to report your concerns"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#D7F5F5F5" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailAddress"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:textColorHint="@color/Gray"
+            app:boxStrokeColor="@color/GoldenRod"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/GoldenRod"
+            app:startIconDrawable="@drawable/ic_baseline_email_24"
+            app:startIconTint="@color/GoldenRod">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/Email"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:inputType="text"
+              android:textColor="@color/black"
+              android:textSize="20sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailSubject"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject"
+            android:layout_marginTop="5dp"
+            android:textColorHint="@color/Gray"
+            app:boxStrokeColor="@color/GoldenRod"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/GoldenRod"
+            app:startIconDrawable="@drawable/ic_baseline_title_24"
+            app:startIconTint="@color/GoldenRod">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/Subject"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:inputType="text"
+              android:textColor="@color/black"
+              android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailContent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Type your concern here,"
+            android:scrollbars="vertical"
+            android:textColorHint="@color/Gray"
+            app:boxStrokeColor="@color/GoldenRod"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/GoldenRod">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:id="@+id/Content"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="top"
+              android:inputType="textMultiLine"
+              android:lines="4"
+              android:overScrollMode="always"
+              android:scrollbarStyle="insideInset"
+              android:scrollbars="vertical"
+              android:scrollHorizontally="false"
+              android:textColor="@color/black"
+              android:textSize="20sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/reportHelp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_back_state"
+            android:onClick="reportHelp"
+            android:text="Report help"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="20sp" />
+
+
+
+      </LinearLayout>
+
+    </ScrollView>
+
+
+  </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,67 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.droidsonroids.gif",
+    "module": "android-gif-drawable",
+    "version": "1.2.24",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "android-gif-drawable-1.2.24.aar",
+          "url": "android-gif-drawable-1.2.24.aar",
+          "size": 144864,
+          "sha512": "aa4a844582f9bfa95c38233656c17e4b4316aeedbea307588dae58ca93179ec2cf07462175933a4d841a0251c7f5902f1d6c9402bb97533b188fd971619ce45c",
+          "sha256": "d851de490c93681d3c8efde0aae2a4b775bbdf311eac12f585133e051f54ba50",
+          "sha1": "e6d2130c1d600a9f6281cf82ba105017d24b3e13",
+          "md5": "f36d33543e3a23f32335b005ea14ca1c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "pl.droidsonroids.relinker",
+          "module": "relinker",
+          "version": {
+            "requires": "1.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-gif-drawable-1.2.24.aar",
+          "url": "android-gif-drawable-1.2.24.aar",
+          "size": 144864,
+          "sha512": "aa4a844582f9bfa95c38233656c17e4b4316aeedbea307588dae58ca93179ec2cf07462175933a4d841a0251c7f5902f1d6c9402bb97533b188fd971619ce45c",
+          "sha256": "d851de490c93681d3c8efde0aae2a4b775bbdf311eac12f585133e051f54ba50",
+          "sha1": "e6d2130c1d600a9f6281cf82ba105017d24b3e13",
+          "md5": "f36d33543e3a23f32335b005ea14ca1c"
+        }
+      ]
+    }
+  ]
+}

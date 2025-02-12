@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".RegisteredUser.SetPillReminder"
+    android:background="@color/WhiteSmoke">
+
+    <RelativeLayout
+        android:id="@+id/menulayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:onClick="back_btn"
+            android:paddingTop="5dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:paddingTop="5dp"
+            android:text="Set Pill Reminder"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menulayout">
+
+        <ScrollView
+            android:id="@+id/login_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="30dp"
+            android:transitionName="login_screen"
+            app:layout_constraintVertical_bias="0.074"
+            tools:layout_editor_absoluteX="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10px"
+                    android:layout_marginBottom="20px"
+                    android:background="@drawable/frame"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/medicine_pic"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_baseline_medication"
+                        android:scaleType="fitXY"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Take an Image of you medication!"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:id="@+id/take_pic"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginBottom="7dp"
+                    android:src="@drawable/camera" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="350dp"
+                    android:layout_height="2dp"
+                    android:background="#95F5F5F5"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/linear"
+                    />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/medication_name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Medication"
+                    android:maxLength = "30"
+                    android:textColorHint="@color/Gray"
+                    app:boxStrokeColor="@color/GoldenRod"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/GoldenRod">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/med_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/quantity"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="138dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Quantity"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/Gray"
+                        app:boxStrokeColor="@color/GoldenRod"
+                        app:boxStrokeWidthFocused="2dp"
+                        app:endIconMode="clear_text"
+                        android:maxLength = "7"
+                        app:endIconTint="@color/GoldenRod">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/med_quantity"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/med_type"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_toRightOf="@id/quantity"
+                        android:background="#00000000"
+                        android:hint="Capsule"
+                        android:textColorHint="@color/Gray"
+                        app:boxStrokeColor="@color/GoldenRod"
+                        app:boxStrokeWidthFocused="2dp"
+                        app:startIconTint="@color/GoldenRod">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/dropdown_types"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="none"
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </RelativeLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/medication_instruction"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Instruction"
+                    android:textColorHint="@color/Gray"
+                    app:boxStrokeColor="@color/GoldenRod"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:startIconTint="@color/GoldenRod">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/dropdown_inst"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="none"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/schedule"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Schedule"
+                    android:textColorHint="@color/Gray"
+                    app:boxBackgroundColor="@color/Transparent"
+                    app:boxStrokeColor="@color/GoldenRod"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:startIconTint="@color/GoldenRod">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/dropdown_schd"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="none"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TimePicker
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="360dp"
+                    android:layout_marginTop="10dp"
+                    android:headerBackground="@color/GoldenRod"
+                    android:numbersBackgroundColor="#E4E9E8"
+                    android:numbersInnerTextColor="@color/white"
+                    android:numbersTextColor="@color/black"
+                    android:soundEffectsEnabled="true"
+                    android:numbersSelectorColor="#2C009688"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/timeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/add_reminder"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_back_state"
+                    android:onClick="addReminder"
+                    android:text="Set Reminder"
+                    android:textColor="@color/WhiteSmoke"
+                    android:textSize="22sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cancel_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@color/Transparent"
+                    android:onClick="cancel"
+                    android:text="Cancel"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="8dp"
+        app:menu="@menu/bottom_navigation_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+

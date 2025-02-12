@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.firebase",
+    "module": "firebase-crashlytics-buildtools",
+    "version": "3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "firebase-crashlytics-buildtools-3.0.3.jar",
+          "url": "firebase-crashlytics-buildtools-3.0.3.jar",
+          "size": 8437846,
+          "sha512": "46b4467b45956ee739b95c3c4fda9c09fa6b6c6bf1a58d7d9d6002aa687a63ec782da2f714a41cbc21f48c1202398464aaebb009b6d82e51b036353797d12be1",
+          "sha256": "953b6f3942283f8332cc17a59bca2649ea49d14e0072f2c1f01762ebaebdf357",
+          "sha1": "067b7ecf319b2db1ec52b1eb80068608a59a4221",
+          "md5": "e65afd4364558e8aa7d49930938aca32"
+        }
+      ]
+    }
+  ]
+}

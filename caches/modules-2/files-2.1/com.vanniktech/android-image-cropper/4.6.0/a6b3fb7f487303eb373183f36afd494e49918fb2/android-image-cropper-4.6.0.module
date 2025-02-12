@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vanniktech",
+    "module": "android-image-cropper",
+    "version": "4.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-image-cropper-4.6.0.aar",
+          "url": "android-image-cropper-4.6.0.aar",
+          "size": 194089,
+          "sha512": "813f0deff306a238fe61226785504b4719b08f2c13f3e2986e4bd4a7223ddf064faef6f50e0588813b127b661e28e2a8c1c61f09c6f6901328a4247807ce7b14",
+          "sha256": "1483d3b156fa0a1bcba1061e261de978200533c501d308229e1655368472de93",
+          "sha1": "efb55e61b06769199ff74a5c9d4c4629902ac248",
+          "md5": "ec76353adab49610db04c5cb806cdadf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-image-cropper-4.6.0.aar",
+          "url": "android-image-cropper-4.6.0.aar",
+          "size": 194089,
+          "sha512": "813f0deff306a238fe61226785504b4719b08f2c13f3e2986e4bd4a7223ddf064faef6f50e0588813b127b661e28e2a8c1c61f09c6f6901328a4247807ce7b14",
+          "sha256": "1483d3b156fa0a1bcba1061e261de978200533c501d308229e1655368472de93",
+          "sha1": "efb55e61b06769199ff74a5c9d4c4629902ac248",
+          "md5": "ec76353adab49610db04c5cb806cdadf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-image-cropper-4.6.0-sources.jar",
+          "url": "android-image-cropper-4.6.0-sources.jar",
+          "size": 62494,
+          "sha512": "1b1473a9628aef3fc3fa0db159ee13f895ae9b992cf8d85f32b05c83041078aa8750276f7ba4b859d3a83ecde6234a17dffa6f66355599c8cf1440d0de3230bf",
+          "sha256": "db327721803dabe78b0a59ac4e2d7a5459978dc7ccb86523d9ec499722119aa9",
+          "sha1": "76aad414a9d015f47c2f0e284ceab2e41410069a",
+          "md5": "08cd477d215fb4d9687c9b0d5b2e10af"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-image-cropper-4.6.0-javadoc.jar",
+          "url": "android-image-cropper-4.6.0-javadoc.jar",
+          "size": 474102,
+          "sha512": "aca441b4f2f8e717990b366204cb1e1044e02b0265f30ffbc224e95b38f9de67998d5788f4e056f00d6ef29a7b61eefa55b83e49a61925eec366e624e94ca1b5",
+          "sha256": "d60712218cb4cd103faa02259a0c52a6c1b6b334a2df5ad79c3d8b9c016f1083",
+          "sha1": "2f5fb694cc87c44d5de719a565d76b3fc9380772",
+          "md5": "faa3b4052689ef4cf7b113d5ea688086"
+        }
+      ]
+    }
+  ]
+}

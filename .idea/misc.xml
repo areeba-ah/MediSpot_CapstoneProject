@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/background_image.xml" value="0.11936936936936937" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/card_2.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/card_3.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/card_4.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/card_5.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/frame.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/ic_baseline_email_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/ic_baseline_phone_android_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/ic_baseline_visibility_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/ic_baseline_visibility_off_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22962962962962963" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable-v24/person.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/Searchframe.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/back_button.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/border.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/button_back_state.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/button_state.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/button_text_color.xml" value="0.2311111111111111" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/card_1.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/circle_button.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/close.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/custom_pass_icon.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/custom_voice_icon.xml" value="0.22755555555555557" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/dropdown_background.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/eye_close.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/eye_open.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/frame.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/frame1.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/frame2.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/frame3.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/frame4.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/frame5.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/frame6.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_access_alarms_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2311111111111111" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_arrow_drop_up_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_book_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_help_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_medication.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_medication_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2311111111111111" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_snooze_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_title_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_transit_enterexit_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_volume_off_24.xml" value="0.22755555555555557" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.22755555555555557" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2311111111111111" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/ic_twotone_arrow_drop_down_24.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/image_frame.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/login_frame.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/login_screen_btns.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/next_icon.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/onboarding_btn.xml" value="0.2311111111111111" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/onboarding_screen_btns.xml" value="0.2311111111111111" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/person.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/search_box_outline.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/welc.xml" value="0.2311111111111111" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/welcome.xml" value="0.1787037037037037" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/drawable/welcome_screen_btns.xml" value="0.2311111111111111" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/RegisteredUser_results.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/Reminder.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_about_us.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_add_drug.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_add_drugs.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_add_medications.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_barcode_reader.xml" value="0.21733333333333332" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_barcode_scanner.xml" value="0.10540540540540541" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_drug_index.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_drug_info.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_drug_list.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_forgot_password.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_hello.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_home_screen.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_index.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_login.xml" value="0.268" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_main.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_my_account.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_notification_page.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_on_boarding.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_one.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_password_updated.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_pill_reminder.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_pill_reminder_page.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_qrcode_scanner.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_registered_user_about_us.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_registered_user_drug_index.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_registered_user_drug_info.xml" value="0.268" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_registered_user_home_page.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_registered_user_navigations.xml" value="0.10666666666666667" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_registered_user_report_help.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_registered_user_result_page.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_registered_user_search_by_text.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_registered_user_search_drug_page.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_report_help.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_reset_password.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_result_page.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_save_drug_page.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_search_by_barcode.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_search_by_image.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_search_by_qr.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_search_by_text.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_search_history.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_search_options.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_set_pill_reminder.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_share_medi_spot.xml" value="0.20810810810810812" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_sign_screen.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_sign_up_page.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_testing.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_valification_code.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/activity_welcome_screen.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/drawable_layout.xml" value="0.33147632311977715" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/dropdown_background.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/dropdown_med.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/dropdown_med_types.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/drug_results.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/drugs.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/features_cards.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/fragment_home.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/fragment_registered_user_home_screen.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/fragment_testing.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/reminder.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/saved_drugs.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/searchPage_cards.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/search_box_outline.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/search_history.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/search_page_cards.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/singlerow.xml" value="0.12027027027027028" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/slides_layout.xml" value="0.132" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/layout/splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/menu/bottom_navigation_bar.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/menu/menu_resource.xml" value="0.21936936936936938" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/menu/registeredUser_menu_resource.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/menu/registered_user_menu_resource.xml" value="0.22027027027027027" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/menu/searchmenu.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/DELL/Andriod Studio Projects/MediSpot/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23423423423423423" />
+        <entry key="..\:/Users/DELL/Desktop/MediSpot/app/src/main/res/layout/activity_pill_reminder.xml" value="0.13783783783783785" />
+        <entry key="..\:/Users/DELL/Desktop/MediSpot/app/src/main/res/layout/activity_registered_user_search_by_text.xml" value="0.2137777777777778" />
+        <entry key="..\:/Users/DELL/Desktop/MediSpot/app/src/main/res/layout/activity_search_by_text.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/DELL/Desktop/MediSpot/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1518018018018018" />
+        <entry key="..\:/Users/DELL/Desktop/MediSpot/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1518018018018018" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.375" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

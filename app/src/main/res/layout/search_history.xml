@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#EBEFEF">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:outlineProvider="background"
+            android:padding="5dp"
+            android:paddingBottom="1dp">
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/drugName"
+                    android:layout_width="330dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="10dp"
+                    android:text="drug name"
+                    android:textColor="@color/black"
+                    android:textSize="17dp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="310dp"
+                android:onClick="removeSaved"
+                android:padding="5dp"
+                android:src="@drawable/ic_clear_black_24dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:padding="5dp"
+            android:text="drug name"
+            android:textColor="#686565"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

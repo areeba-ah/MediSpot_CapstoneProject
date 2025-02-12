@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-crashlytics-buildtools:3.0.3" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.google.firebase" artifactId="firebase-crashlytics-buildtools" version="3.0.3" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/caches/modules-2/files-2.1/com.google.firebase/firebase-crashlytics-buildtools/3.0.3/67b7ecf319b2db1ec52b1eb80068608a59a4221/firebase-crashlytics-buildtools-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.michaelrocks</groupId>
+  <artifactId>libphonenumber-android</artifactId>
+  <version>8.12.28</version>
+  <packaging>aar</packaging>
+  <name>libphonenumber-android</name>
+  <description>An Android port of Google's libphonenumber.</description>
+  <url>https://github.com/michaelrocks/libphonenumber-android</url>
+  <inceptionYear>2016</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MichaelRocks</id>
+      <name>Michael Rozumyanskiy</name>
+      <email>michael.rozumyanskiy@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/michaelrocks/libphonenumber-android.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/michaelrocks/libphonenumber-android.git</developerConnection>
+    <url>https://github.com/michaelrocks/libphonenumber-android</url>
+  </scm>
+</project>

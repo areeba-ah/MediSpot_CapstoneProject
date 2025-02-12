@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hbb20",
+    "module": "ccp",
+    "version": "2.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ccp-2.6.0.aar",
+          "url": "ccp-2.6.0.aar",
+          "size": 552979,
+          "sha512": "6fba824f48c1e1a11aff7beba1e70a8c0e040a11ed285b2e8c60b65e632db8f33f9cc5a638b274c692ba2b80e50787d6d3efc0ebc979799c114f9553762cb171",
+          "sha256": "3b2e703e1c3d6461d68218ea1f9c34d53e19467570ee9d1c6211196bf5e1cf36",
+          "sha1": "8269aea91a933e596e3d36a48fb41c2c2bf752b3",
+          "md5": "ecdf3d44c597ea5804085ae56128dd2e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.michaelrocks",
+          "module": "libphonenumber-android",
+          "version": {
+            "requires": "8.12.28"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ccp-2.6.0.aar",
+          "url": "ccp-2.6.0.aar",
+          "size": 552979,
+          "sha512": "6fba824f48c1e1a11aff7beba1e70a8c0e040a11ed285b2e8c60b65e632db8f33f9cc5a638b274c692ba2b80e50787d6d3efc0ebc979799c114f9553762cb171",
+          "sha256": "3b2e703e1c3d6461d68218ea1f9c34d53e19467570ee9d1c6211196bf5e1cf36",
+          "sha1": "8269aea91a933e596e3d36a48fb41c2c2bf752b3",
+          "md5": "ecdf3d44c597ea5804085ae56128dd2e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="fastscroll__style"/>
+    <color name="defaultBorderFlagColor">@android:color/transparent</color>
+    <color name="defaultContentColor">@android:color/black</color>
+    <color name="pressed_bg">#64b7b7b7</color>
+    <color name="test">#221224</color>
+    <dimen name="ccp_padding">8dp</dimen>
+    <dimen name="fastscroll__bubble_corner">20dp</dimen>
+    <dimen name="fastscroll__bubble_size">50dp</dimen>
+    <dimen name="fastscroll__handle_clickable_width">24dp</dimen>
+    <dimen name="fastscroll__handle_corner">3dp</dimen>
+    <dimen name="fastscroll__handle_height">30dp</dimen>
+    <dimen name="fastscroll__handle_inset">9dp</dimen>
+    <dimen name="fastscroll__handle_padding">2dp</dimen>
+    <dimen name="fastscroll__handle_width">6dp</dimen>
+    <dimen name="google_1x">8dp</dimen>
+    <string name="clear_search_button_content_description">Clear search</string>
+    <string name="dismiss_button_content_description">Dismiss</string>
+    <string name="no_result_found">Results not found</string>
+    <string name="search_hint">Search…</string>
+    <string name="select_country">Select a country</string>
+    <declare-styleable name="CountryCodePicker">
+        <!--{@deprecated Use defaultNameCode instead.}-->
+        <attr format="integer" name="ccp_defaultPhoneCode"/>
+        <attr format="color" name="ccp_contentColor"/>
+        <attr format="color" name="ccp_arrowColor"/>
+        <attr format="dimension" name="ccp_textSize"/>
+        <attr format="dimension" name="ccp_arrowSize"/>
+        <attr format="string" name="ccp_customMasterCountries"/>
+        <attr format="string" name="ccp_excludedCountries"/>
+        <attr format="color" name="ccp_flagBorderColor"/>
+        <attr format="string" name="ccp_countryPreference"/>
+        <attr format="string" name="ccp_defaultNameCode"/>
+        <attr format="string" name="ccp_selectionMemoryTag"/>
+        <attr format="boolean" name="ccp_useFlagEmoji"/> <!-- beta -->
+        <attr format="boolean" name="ccp_useDummyEmojiForPreview"/> <!-- beta -->
+
+        <attr format="enum" name="ccp_textGravity">
+            <enum name="LEFT" value="-1"/>
+            <enum name="RIGHT" value="1"/>
+            <enum name="CENTER" value="0"/>
+        </attr>
+        <attr format="enum" name="ccp_hintExampleNumberType">
+            <enum name="MOBILE" value="0"/>
+            <enum name="FIXED_LINE" value="1"/>
+            <enum name="FIXED_LINE_OR_MOBILE" value="2"/>
+            <enum name="TOLL_FREE" value="3"/>
+            <enum name="PREMIUM_RATE" value="4"/>
+            <enum name="SHARED_COST" value="5"/>
+            <enum name="VOIP" value="6"/>
+            <enum name="PERSONAL_NUMBER" value="7"/>
+            <enum name="PAGER" value="8"/>
+            <enum name="UAN" value="9"/>
+            <enum name="VOICEMAIL" value="10"/>
+            <enum name="UNKNOWN" value="11"/>
+
+        </attr>
+
+
+        <!--CCP dimension properties-->
+        <attr format="dimension" name="ccp_padding"/>
+
+        <!--CCP bool properties-->
+        <attr format="boolean" name="ccp_showNameCode"/>
+        <attr format="boolean" name="ccp_showFlag"/>
+        <attr format="boolean" name="ccp_showFullName"/>
+	      <attr format="boolean" name="ccp_internationalFormattingOnly"/>
+        <attr format="boolean" name="ccp_clickable"/>
+        <attr format="boolean" name="ccp_showPhoneCode"/>
+        <attr format="boolean" name="ccp_autoDetectLanguage"/>
+        <attr format="boolean" name="ccp_autoDetectCountry"/>
+        <attr format="boolean" name="ccp_areaCodeDetectedCountry"/>
+        <attr format="boolean" name="ccp_autoFormatNumber"/>
+        <attr format="boolean" name="ccp_hintExampleNumber"/>
+        <attr format="boolean" name="ccp_rememberLastSelection"/>
+        <attr format="boolean" name="ccp_showArrow"/>
+        <attr format="boolean" name="ccp_rippleEnable"/>
+
+        <!--CCP Dialog properties-->
+        <attr format="boolean" name="ccpDialog_keyboardAutoPopup"/>
+        <attr format="boolean" name="ccpDialog_allowSearch"/>
+        <attr format="boolean" name="ccpDialog_showPhoneCode"/>
+        <attr format="boolean" name="ccpDialog_showNameCode"/>
+        <attr format="boolean" name="ccpDialog_showFlag"/>
+        <attr format="boolean" name="ccpDialog_showFastScroller"/>
+        <attr format="color" name="ccpDialog_fastScroller_bubbleColor"/>
+        <attr format="color" name="ccpDialog_fastScroller_handleColor"/>
+        <attr format="reference" name="ccpDialog_fastScroller_bubbleTextAppearance"/>
+        <attr format="reference" name="ccpDialog_backgroundColor"/>
+        <attr format="reference" name="ccpDialog_background"/>
+        <attr format="dimension" name="ccpDialog_cornerRadius"/>
+        <attr format="color" name="ccpDialog_textColor"/>
+        <attr format="color" name="ccpDialog_searchEditTextTint"/>
+        <attr format="boolean" name="ccpDialog_showCloseIcon"/>
+        <attr format="boolean" name="ccpDialog_showTitle"/>
+        <attr format="boolean" name="ccpDialog_initialScrollToSelection"/>
+        <attr format="boolean" name="ccpDialog_rippleEnable"/>
+        <!--list of languages-->
+        <!--Make sure: order in this list must match order of Language Enum in CountryCodePicker.java. Values must be ascending starting from 0.-->
+        <attr format="enum" name="ccp_defaultLanguage">
+            <enum name="AFRIKAANS" value="0"/>
+            <enum name="ARABIC" value="1"/>
+            <enum name="BASQUE" value="2"/>
+            <enum name="BENGALI" value="3"/>
+            <enum name="CHINESE_SIMPLIFIED" value="4"/>
+            <enum name="CHINESE_TRADITIONAL" value="5"/>
+            <enum name="CZECH" value="6"/>
+            <enum name="DANISH" value="7"/>
+            <enum name="DUTCH" value="8"/>
+            <enum name="ENGLISH" value="9"/>
+            <enum name="FARSI" value="10"/>
+            <enum name="FRENCH" value="11"/>
+            <enum name="GERMAN" value="12"/>
+            <enum name="GREEK" value="13"/>
+            <enum name="GUJARATI" value="14"/>
+            <enum name="HEBREW" value="15"/>
+            <enum name="HINDI" value="16"/>
+            <enum name="HUNGARIAN" value="17"/>
+            <enum name="INDONESIA" value="18"/>
+            <enum name="ITALIAN" value="19"/>
+            <enum name="JAPANESE" value="20"/>
+            <enum name="KAZAKH" value="21"/>
+            <enum name="KOREAN" value="22"/>
+            <enum name="MARATHI" value="23"/>
+            <enum name="POLISH" value="24"/>
+            <enum name="PORTUGUESE" value="25"/>
+            <enum name="PUNJABI" value="26"/>
+            <enum name="RUSSIAN" value="27"/>
+            <enum name="SLOVAK" value="28"/>
+            <enum name="SLOVENIAN" value="29"/>
+            <enum name="SPANISH" value="30"/>
+            <enum name="SWEDISH" value="31"/>
+            <enum name="TAGALOG" value="32"/>
+            <enum name="THAI" value="33"/>
+            <enum name="TURKISH" value="34"/>
+            <enum name="UKRAINIAN" value="35"/>
+            <enum name="URDU" value="36"/>
+            <enum name="UZBEK" value="37"/>
+            <enum name="VIETNAMESE" value="38"/>
+        </attr>
+
+        <attr format="enum" name="ccp_countryAutoDetectionPref">
+            <enum name="SIM_ONLY" value="1"/>
+            <enum name="NETWORK_ONLY" value="2"/>
+            <enum name="LOCALE_ONLY" value="3"/>
+            <enum name="SIM_NETWORK" value="12"/>
+            <enum name="NETWORK_SIM" value="21"/>
+            <enum name="SIM_LOCALE" value="13"/>
+            <enum name="LOCALE_SIM" value="31"/>
+            <enum name="NETWORK_LOCALE" value="23"/>
+            <enum name="LOCALE_NETWORK" value="32"/>
+            <enum name="SIM_NETWORK_LOCALE" value="123"/>
+            <enum name="SIM_LOCALE_NETWORK" value="132"/>
+            <enum name="NETWORK_SIM_LOCALE" value="213"/>
+            <enum name="NETWORK_LOCALE_SIM" value="231"/>
+            <enum name="LOCALE_SIM_NETWORK" value="312"/>
+            <enum name="LOCALE_NETWORK_SIM" value="321"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="fastscroll__fastScroller">
+	    <attr format="color" name="fastscroll__bubbleColor"/>
+	    <attr format="color" name="fastscroll__handleColor"/>
+	    <attr format="reference" name="fastscroll__bubbleTextAppearance"/>
+	</declare-styleable>
+</resources>

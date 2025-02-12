@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/drug_index"
+            android:title="Drug Index"
+            android:icon="@drawable/ic_baseline_book_24"/>
+    </group>
+
+    <item android:title="Rate and Share">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/rateUS"
+                    android:title="Rate us"
+                    android:icon="@drawable/ic_baseline_star_rate_24"/>
+
+                <item
+                    android:id="@+id/share"
+                    android:title="Share"
+                    android:icon="@drawable/ic_baseline_share_24"/>
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Others">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/login"
+                    android:title="Login"
+                    android:icon="@drawable/ic_baseline_login_24"/>
+
+                <item
+                    android:id="@+id/aboutUs"
+                    android:title="About us"
+                    android:icon="@drawable/ic_baseline_info_24"/>
+                <item
+                    android:id="@+id/reportHelp"
+                    android:title="Report help"
+                    android:icon="@drawable/ic_baseline_help_24"/>
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".User.DrugInfo">
+
+    <RelativeLayout
+        android:id="@+id/menulayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:onClick="back_btn"
+            android:paddingTop="7dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/drugName"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:enabled="false"
+            android:paddingTop="5dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:paddingBottom="10dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/menulayout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:transitionName="login_screen"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="Suspicious0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/menulayout">
+
+                <ViewFlipper
+                    android:id="@+id/flipper"
+                    android:autoStart="false"
+                    android:padding="5dp"
+                    android:background="@color/WhiteSmoke"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.jsibbold.zoomage.ZoomageView
+                        android:id="@+id/frontImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:zoomage_restrictBounds="false"
+                        app:zoomage_animateOnReset="true"
+                        app:zoomage_autoResetMode="UNDER"
+                        app:zoomage_autoCenter="true"
+                        app:zoomage_zoomable="true"
+                        app:zoomage_translatable="true"
+                        app:zoomage_minScale="0.6"
+                        app:zoomage_maxScale="8"
+                        />
+
+                    <com.jsibbold.zoomage.ZoomageView
+                        android:id="@+id/backImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:zoomage_restrictBounds="false"
+                        app:zoomage_animateOnReset="true"
+                        app:zoomage_autoResetMode="UNDER"
+                        app:zoomage_autoCenter="true"
+                        app:zoomage_zoomable="true"
+                        app:zoomage_translatable="true"
+                        app:zoomage_minScale="0.6"
+                        app:zoomage_maxScale="8"
+                        />
+
+                    <com.jsibbold.zoomage.ZoomageView
+                        android:id="@+id/pilImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:zoomage_restrictBounds="false"
+                        app:zoomage_animateOnReset="true"
+                        app:zoomage_autoResetMode="UNDER"
+                        app:zoomage_autoCenter="true"
+                        app:zoomage_zoomable="true"
+                        app:zoomage_translatable="true"
+                        app:zoomage_minScale="0.6"
+                        app:zoomage_maxScale="8"
+                        />
+
+                </ViewFlipper>
+
+                <ImageButton
+                    android:id="@+id/back"
+                    android:layout_width="21dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/DarkGray"
+                    android:layout_marginStart="10dp"
+                    android:onClick="back"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/flipper"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/next"
+                    android:layout_width="21dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/DarkGray"
+                    android:onClick="next"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/flipper"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="3dp"
+                android:elevation="5dp"
+                android:onClick="nameDrop"
+                android:backgroundTint="#F2DDE4E4"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/name_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDE4E4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="12dp"
+                        android:text="Drug Name"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:enabled="false"/>
+
+                    <TextView
+                        android:id="@+id/Drug_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:layout_marginStart="10dp"
+                        android:textColor="@color/black"
+                        android:padding="12dp"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="2dp"
+                android:onClick="brandDrop"
+                app:cardCornerRadius="5dp"
+                android:enabled="false">
+
+                <LinearLayout
+                    android:id="@+id/brand_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDE4E4"
+                    android:orientation="vertical"
+                    android:enabled="false">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="12dp"
+                        android:text="Brand Name"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:enabled="false"/>
+
+                    <TextView
+                        android:id="@+id/brand_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="17dp"
+                        android:layout_marginStart="10dp"
+                        android:textColor="@color/black"
+                        android:padding="12dp"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:elevation="5dp"
+                android:onClick="genericDrop"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/generic_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDE4E4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="12dp"
+                        android:text="Generic Name"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:enabled="false"/>
+
+                    <TextView
+                        android:id="@+id/generic_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:textColor="@color/black"
+                        android:padding="12dp"
+                        android:textSize="17dp"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:elevation="5dp"
+                android:onClick="descriptionDrop"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/description_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDE4E4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="12dp"
+                        android:text="Description"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:enabled="false"/>
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/drug_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:padding="12dp"
+                        android:scrollHorizontally="false"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:elevation="5dp"
+                android:onClick="dosageDrop"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/dosage_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDE4E4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="12dp"
+                        android:text="Dosage"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:enabled="false"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/drug_dosage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:padding="12dp"
+                        android:scrollbarStyle="insideInset"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:elevation="5dp"
+                android:onClick="dircDrop"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/dirc_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDE4E4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="12dp"
+                        android:text="Directions"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:enabled="false"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/drug_directions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:padding="12dp"
+                        android:scrollbarStyle="insideInset"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:elevation="5dp"
+                android:onClick="effectDrop"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/effect_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDE4E4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="12dp"
+                        android:text="Side Effects"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:enabled="false"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/side_effects"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:padding="12dp"
+                        android:scrollbarStyle="insideInset"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:elevation="5dp"
+                android:onClick="precDrop"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/prec_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDE4E4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="12dp"
+                        android:text="Precautions"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:enabled="false"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/drug_precautions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:padding="12dp"
+                        android:scrollHorizontally="false"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:elevation="5dp"
+                android:onClick="warnDrop"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:id="@+id/warn_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDE4E4"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="12dp"
+                        android:text="Warnings"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:enabled="false"/>
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/drug_warning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:gravity="top"
+                        android:inputType="textMultiLine"
+                        android:padding="12dp"
+                        android:scrollHorizontally="false"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:visibility="gone"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
